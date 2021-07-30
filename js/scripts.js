@@ -16,3 +16,17 @@ $(function() {
         $(".carousel").carousel("cycle");
     });*/
 });
+
+// opens reserve campsite modal
+$(function(){
+    $("#reserveButton").click(function(){
+        $("#reserveModal").modal("toggle")
+    });
+});
+
+// opens login modal
+$(function(){
+    $("#loginButton").click(function(){
+        $("#loginModal").modal("toggle")
+    });
+});
